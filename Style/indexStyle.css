@@ -1,0 +1,127 @@
+.head {
+    background-color: #F6F8FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: #D0D7DE;
+    flex-wrap: wrap;
+}
+
+.substance {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sidebar {
+    width: 0.8rem;
+    border-right-style: solid;
+    border-right-color: #D0D7DE;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+
+.sidebarButton {
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 0.004rem;
+    border-top-color: #ffffff;
+    border-top-width: 0.004rem;
+    border-radius: 5%;
+    font-size: 0.12rem;
+    font-family: STHupo;
+    color: rgb(79, 79, 79);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+    height: 0.5rem;
+    display: block;
+}
+
+button.sidebarButton:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+
+.navigation {
+    width: 100%;
+    background-color: white;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+.explainNavigation {
+    font-size: 0.12rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.01rem;
+    margin-left: 0.65rem;
+    color: #545454
+}
+
+.themBox {
+    margin: auto;
+    margin-top: 0.2rem;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.themList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.listLink {
+    display: flex;
+    background-color: #F6F6F6;
+    font-size: 0.1rem;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-left: 0.663rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.1rem;
+    width: 81.45%;
+    
+}
+
+
+.windowLink {
+    background-color: #F6F6F6;
+    font-size: 0.1rem;
+    width: 20%;
+    height: 0.5rem;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+a:link {
+    color: #666;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:hover {
+    color: #3d3d3d;
+}
+
+a:active {
+    color: #000000;
+}
